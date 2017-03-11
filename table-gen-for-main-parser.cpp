@@ -21,7 +21,7 @@ enum Category : uint8_t {
     Delimiters,    Double_quote
 };
 
-const char32_t* after_percent_chars = U"acdikmnst" ;
+const char32_t* after_percent_chars = U"acdhiklmnst" ;
 const char32_t* id_begin_chars = 
     U"_ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 const char32_t* id_body_chars = 
